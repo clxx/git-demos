@@ -6,6 +6,12 @@
   * Take care to choose the best default editor for you (which is most probably *not* Vim).
   * Take care to select 'Checkout as-is, commit as-is' to turn off any line ending conversions if you do not explicitly need this feature for cross-platform development.
 
+## Lab
+
+* Setting up your own Git environment - locally!
+  * [Git on the Server - The Protocols](https://git-scm.com/book/en/v2/Git-on-the-Server-The-Protocols)
+  * [Setting Up Your Own Git Server](https://dev.to/erhankilic/setting-up-your-own-git-server--26h6)
+
 ## Textual
 
 ### Basics
