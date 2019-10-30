@@ -22,6 +22,8 @@
   
 TODO
 
+Fast forward merge
+
 Squash (wie und warum) und rebase vor pr mit Konflikten in tfs zur Vorbereitung des Squash merge.
 
 ---
@@ -35,6 +37,26 @@ git merge-base --fork-point develop
 Also besser git reset -- soft xyz und dann in einem Schritt?
 
 https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges !!!
+
+---
+
+Alte Notizen für git Schulung einarbeiten...
+
+---
+
+Tortoise git: how would my pr look like?
+
+---
+
+Git Clean dfx
+Und rebase -i mit commit Reihenfolge
+
+---
+
+Erst Tutorial für Essential commands.
+Dann collab on feature branch: Konflikt auflösen mit merge und rebase
+Was macht tfs bei einem pr
+Squash (wir und warum) und rebase vor pr mit Konflikten in tfs zur Vorbereitung des Squash merge.
 
 ---
 
