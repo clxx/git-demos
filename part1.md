@@ -8,9 +8,16 @@
 
 ## Lab
 
-* Setting up your own Git environment - locally!
+* Setting up your own Git environment - totally locally!
   * [Git on the Server - The Protocols](https://git-scm.com/book/en/v2/Git-on-the-Server-The-Protocols)
   * [Setting Up Your Own Git Server](https://dev.to/erhankilic/setting-up-your-own-git-server--26h6)
+
+```bash
+git init --bare demo-repo.git
+# The warning 'You appear to have cloned an empty repository.' is normal at this point...
+git clone demo-repo.git clone-a
+git clone demo-repo.git clone-b
+```
 
 ## Textual
 
