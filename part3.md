@@ -3,17 +3,18 @@
 TODO
 
 `git reset --hard @{u}`
+
 `git clean -dfx`
 
 * https://git-scm.com/book/en/v2/Git-Internals-Environment-Variables
   * GIT_CURL_VERBOSE
   * GIT_TRACE
 
-Git commit ohne pull davor:
-Fetch
+Git commit ohne pull davor:  
+Fetch  
 Rebase origin/
 
-Git reset hard at upstream
+Git reset hard at upstream  
 Git reset soft at upstream
 
 Git rebase on root (show moving commits)
