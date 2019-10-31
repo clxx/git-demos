@@ -18,6 +18,12 @@ Git reset soft at upstream
 
 Git rebase on root (show moving commits)
 
+---
+
+<https://www.apress.com/gp/book/9781430261032>
+
+---
+
 Was, wenn ich mit merge commit gepullt habe und dann squashen will? Fehler?
 
 Was bei three way merge, wenn kein rebase sondern soft reset? Problem?
