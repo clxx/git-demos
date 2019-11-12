@@ -54,7 +54,7 @@ Vgl. auch [Feature Flags Allow Code to Be Deployed with Controlled Exposure](htt
 
 ## Pull Requests
 
-[Squash merge pull requests](https://docs.microsoft.com/en-us/azure/devops/repos/git/merging-with-squash?view=azure-devops)
+Best Practice: [Squash merge pull requests](https://docs.microsoft.com/en-us/azure/devops/repos/git/merging-with-squash?view=azure-devops)
 
 ## Videos
 
