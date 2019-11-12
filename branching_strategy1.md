@@ -3,7 +3,7 @@
 ## Idee
 
 * Release Flow als Vereinfachung gegenüber GitFlow.
-* "Standing on the shoulders of giants": Microsoft, Google, Facebook...
+* *"Standing on the shoulders of giants":* Microsoft, Google, Facebook...
 * Exzellent dokumentiert.
 
 ## Argumentation und Grafiken
