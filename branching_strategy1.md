@@ -37,7 +37,7 @@ Vgl. besonders [Trunk Based Development: Branch for release](https://trunkbasedd
 **[Release Flow](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/release-flow)**  
 [Grafik 1: Releasing Hotfixes](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/release-flow#moving-on)  
 [Grafik 2: Moving On](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/release-flow#releasing-hotfixes)  
-*Anmerkung: (Hotfix-)Releases werden durch Tags gekennzeichnet.*
+*(Hotfix-)Releases werden durch Tags gekennzeichnet.*
 
 **[Progressive Experimentation with Feature Flags](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/progressive-experimentation-feature-flags)**  
 **Feature Flags**  
