@@ -2,10 +2,9 @@
 
 ## Idee
 
-* Release Flow als neuen Standard etablieren.
-* Vereinfachung gegenüber GitFlow.
-* "Standing on the shoulders of giants": Mocrosoft, Google, Facebook...
-* Sehr gut dokumentiert.
+* Release Flow als Vereinfachung gegenüber GitFlow.
+* "Standing on the shoulders of giants": Microsoft, Google, Facebook...
+* Exzellent dokumentiert.
 
 ## Argumentation und Grafiken
 
@@ -29,8 +28,7 @@
 > Release Flow lets us [...] work from short-lived topic branches.
 > When we're ready to ship, [...] we start a new release branch off master.
 > Release branches never merge back to master, so we require cherry-picking important changes.
-Hotfixes:  
-> [...] once we have merged the pull request into master, we cherry-pick the change into the release branch.
+> [Hotfixes:] once we have merged the pull request into master, we cherry-pick the change into the release branch.
 
 **[Trunk Based Development: Introduction](https://trunkbaseddevelopment.com/)**  
 Vgl. besonders [Trunk Based Development: Branch for release](https://trunkbaseddevelopment.com/branch-for-release/)
@@ -42,7 +40,7 @@ Vgl. besonders [Trunk Based Development: Branch for release](https://trunkbasedd
 
 **[Progressive Experimentation with Feature Flags](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/progressive-experimentation-feature-flags)**  
 **Feature Flags**  
-Helfen, lang laufende Feature Branches zu vermeiden, die ein Alptraum zum Mergen sind!  
+Vermeiden lang laufende Feature Branches, die ein Alptraum zum Mergen sind!  
 > Azure DevOps merges the code to master, and it'll deploy in the next sprint or TFS release.
 > Importantly, that doesn't mean the new feature will show up right away.
 > We've talked elsewhere about how we decouple deployment and exposure of new features using feature flags.
