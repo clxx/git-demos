@@ -6,7 +6,7 @@
 * *"Standing on the shoulders of giants":* Microsoft, Google, Facebook...
 * Exzellent dokumentiert.
 
-## Argumentation und Grafiken
+## Argumentation
 
 * [Contao-News - Wechsel von GitFlow zu Trunk-based Development](https://contao.org/de/news/wechsel-von-gitflow-zu-trunk-based-development.html)
 * [Trunk-based Development vs. Git Flow](https://www.toptal.com/software/trunk-based-development-git-flow)
