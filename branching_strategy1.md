@@ -28,6 +28,7 @@
 > Release Flow lets us [...] work from short-lived topic branches.
 > When we're ready to ship, [...] we start a new release branch off master.
 > Release branches never merge back to master, so we require cherry-picking important changes.
+>
 > [Hotfixes:] once we have merged the pull request into master, we cherry-pick the change into the release branch.
 
 **[Trunk Based Development: Introduction](https://trunkbaseddevelopment.com/)**  
@@ -46,6 +47,7 @@ Vermeiden lang laufende Feature Branches, die ein Alptraum zum Mergen sind!
 > We've talked elsewhere about how we decouple deployment and exposure of new features using feature flags.
 > This means even if the feature needs a little more bake time before it's ready to show off, if the product builds and deploys, it's safe to go to master.
 > Once in master, the code ends up in an official build, where it's (again) tested, confirmed to meet policy, and digitally signed.
+
 Vgl. auch [Feature Flags Allow Code to Be Deployed with Controlled Exposure](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/use-git-microsoft#feature-flags-allow-code-to-be-deployed-with-controlled-exposure)
 
 [Feature Flags, Toggles, Controls - The Hub for Feature Flag Driven Development](https://featureflags.io/)
