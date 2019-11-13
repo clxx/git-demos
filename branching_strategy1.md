@@ -6,6 +6,12 @@
 * *"Standing on the shoulders of giants":* Microsoft, Google, Facebook...
 * Exzellent dokumentiert.
 
+## Vergleich
+
+* [Comparing Git Workflows](https://www.codingblocks.net/podcast/comparing-git-workflows/)
+* [Git Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
+* [Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+
 ## Argumentation
 
 * [Contao-News - Wechsel von GitFlow zu Trunk-based Development](https://contao.org/de/news/wechsel-von-gitflow-zu-trunk-based-development.html)
