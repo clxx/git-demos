@@ -6,13 +6,10 @@
 * [Resolve merge conflicts](https://docs.microsoft.com/de-de/azure/devops/repos/git/merging?view=azure-devops-2019&tabs=visual-studio)
 * [Squash merge pull requests](https://docs.microsoft.com/de-de/azure/devops/repos/git/merging-with-squash?view=azure-devops-2019)
 
-## Strategies
+## Workflow
 
 * [Comparing Git Workflows](https://www.codingblocks.net/podcast/comparing-git-workflows/)
-* [Git Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 * [Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
-* [Microsoft - Adopt a Git branching strategy](https://docs.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance?view=azure-devops)
-* [How We Use Git at Microsoft](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/use-git-microsoft)
 
 ## Deep Dive
 
