@@ -8,9 +8,7 @@ echo
 git push
 echo
 
-cd ..
-
-cd clone-b
+cd ../clone-b
 
 echo 'Second file, first line.' > second.txt
 git add .
@@ -24,5 +22,6 @@ echo
 git push
 echo
 git log -p
+echo
 
 cd ..
