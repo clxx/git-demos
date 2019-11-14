@@ -13,6 +13,11 @@ git tag -a v1.2 -m 'Version 1.2'
 echo
 git push --tags
 echo
-
-
-
+git log --pretty=oneline
+echo
+# Change history...
+git filter-branch --env-filter '
+email = 'new-address@example.com'
+GIT_COMMITTER_EMAIL = "$email"
+GIT_AUTHOR_EMAIL = "$email"
+' -- --all
