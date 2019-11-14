@@ -25,5 +25,5 @@ git commit -am 'Fourth commit: Fixed merge conflict.'
 echo
 git push
 echo
-git log -c
+git log -p
 cd ..
