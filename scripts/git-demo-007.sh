@@ -1,6 +1,7 @@
 #!/bin/bash
 
 cd clone-a
+
 git checkout -b feature/one
 echo
 echo 'First file, second line.' >> first.txt
@@ -36,4 +37,6 @@ echo
 git push
 echo
 git log -p
+echo
+
 cd ..
