@@ -9,6 +9,7 @@ echo
 echo 'First file, third line.' >> first.txt
 git commit -am 'Third commit: First file, third line.'
 echo
+
 git checkout master
 echo
 echo 'Second file, first line.' > second.txt
@@ -17,6 +18,7 @@ echo
 git commit -m 'Fourth commit: Second file, first line.'
 echo
 git push
+
 echo
 git checkout feature/one
 echo
@@ -26,6 +28,7 @@ git push
 echo
 git log -p
 echo
+
 git checkout master
 echo
 git merge feature/one
