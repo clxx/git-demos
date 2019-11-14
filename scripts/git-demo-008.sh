@@ -32,5 +32,5 @@ git merge feature/one
 echo
 git push
 echo
-git log -c
+git log -p
 cd ..
