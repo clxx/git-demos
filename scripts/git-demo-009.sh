@@ -36,7 +36,7 @@ cd ../clone-b
 
 git fetch --all
 echo
-git reset --hard
+git reset --hard @{u}
 echo
 git checkout v1.1
 echo
