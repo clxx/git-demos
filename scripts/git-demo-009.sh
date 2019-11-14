@@ -17,10 +17,12 @@ git log --pretty=oneline
 echo
 # Change history...
 git filter-branch --env-filter '
-email = 'new-address@example.com'
-GIT_COMMITTER_EMAIL = "$email"
-GIT_AUTHOR_EMAIL = "$email"
+EMAIL="new-address@example.com"
+GIT_COMMITTER_EMAIL="$EMAIL"
+GIT_AUTHOR_EMAIL="$EMAIL"
 ' -- --all
+echo
+git push --force-with-lease --tags
 echo
 git log --pretty=oneline
 echo
