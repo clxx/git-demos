@@ -24,5 +24,5 @@ git rebase -i `git merge-base --fork-point master`
 echo
 git push
 echo
-git log -c
+git log -p
 cd ..
