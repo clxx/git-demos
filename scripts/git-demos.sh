@@ -39,7 +39,7 @@ cd ..
 
 echo
 
-echo 'Demos'
+echo 'Learn'
 echo
 echo '1: Pull with merge commit (no conflict).'
 echo '2: Pull with merge commit (conflict).'
@@ -49,6 +49,10 @@ echo '5: Feature branch (with squash merge).'
 echo '6: Feature branch (squash commits only).'
 echo '7: Interactive rebase (squash commits).'
 echo '8: Soft reset (some kind of a last resort).'
+echo
+echo 'Explore'
+echo
+echo '9: Tags after root rebase.' # git rebase -i --root
 echo
 read -p 'Enter your demo number: ' number
 echo
