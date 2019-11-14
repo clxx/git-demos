@@ -21,3 +21,14 @@ email = 'new-address@example.com'
 GIT_COMMITTER_EMAIL = "$email"
 GIT_AUTHOR_EMAIL = "$email"
 ' -- --all
+echo
+git log --pretty=oneline
+echo
+git checkout v1.1
+echo
+git checkout master
+echo
+git gc
+echo
+git checkout v1.1
+echo
