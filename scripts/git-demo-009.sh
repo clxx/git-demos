@@ -16,7 +16,7 @@ echo
 git log --pretty=oneline
 echo
 # Change history...
-git filter-branch --env-filter '
+FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch --env-filter '
 EMAIL="new-address@example.com"
 GIT_COMMITTER_EMAIL="$EMAIL"
 GIT_AUTHOR_EMAIL="$EMAIL"
