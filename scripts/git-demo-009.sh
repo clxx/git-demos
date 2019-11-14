@@ -40,9 +40,9 @@ git fetch --all
 echo
 git reset --hard @{u}
 echo
-git checkout v1.1
-echo
 git log --pretty=oneline
+echo
+git checkout v1.1
 echo
 
 cd ..
