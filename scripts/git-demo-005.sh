@@ -29,5 +29,5 @@ git commit -m 'Fifth commit: Squashed second and third commit.'
 echo
 git push
 echo
-git log -c
+git log -p
 cd ..
