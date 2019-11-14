@@ -21,5 +21,5 @@ git pull --no-edit
 echo
 git push
 echo
-git log -c
+git log -p
 cd ..
