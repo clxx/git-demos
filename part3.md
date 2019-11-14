@@ -19,6 +19,3 @@
   * GIT_TRACE
 
 <https://www.apress.com/gp/book/9781430261032>
-
-* Are there any problems on an three way merge when using soft reset instead of rebasing?
-* Endless merge conflicts without squash when rebasing...
