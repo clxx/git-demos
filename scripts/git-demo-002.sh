@@ -17,6 +17,8 @@ git push
 echo
 git pull --no-edit
 echo
+cat first.txt
+echo
 echo 'First file, first line.' > first.txt
 echo 'First file, second line.' >> first.txt
 git commit -am 'Fourth commit: Fixed merge conflict.'
