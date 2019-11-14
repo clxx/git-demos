@@ -43,12 +43,12 @@ echo 'Demos'
 echo
 echo '1: Pull with merge commit (no conflict).'
 echo '2: Pull with merge commit (conflict).'
-echo '3: Rebase (avoid merge commit).'
+echo '3: Pull with rebase (avoid a merge commit).'
 echo '4: Feature branch (fast forward merge).'
-echo '5: Feature branch (squash merge).'
+echo '5: Feature branch (with squash merge).'
 echo '6: Feature branch (squash commits only).'
 echo '7: Interactive rebase (squash commits).'
-echo '8: Soft reset (some kind of last resort).'
+echo '8: Soft reset (some kind of a last resort).'
 echo
 read -p 'Enter your demo number: ' number
 echo
