@@ -15,7 +15,9 @@ git push --tags
 echo
 git log --pretty=oneline
 echo
+
 # Change history...
+# Note that we deliberately do not use '--tag-name-filter cat'!
 FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch --env-filter '
 EMAIL="new-address@example.com"
 GIT_COMMITTER_EMAIL="$EMAIL"
@@ -30,7 +32,7 @@ git checkout v1.1
 echo
 git checkout master
 echo
-git gc
+git gc --aggressive
 echo
 git checkout v1.1
 echo
