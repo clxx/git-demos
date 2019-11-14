@@ -1,15 +1,15 @@
 #!/bin/bash
 
 cd clone-a
+
 echo 'First file, second line.' >> first.txt
 git commit -am 'Second commit: First file, second line.'
 echo
 git push
-cd ..
-
 echo
 
-cd clone-b
+cd ../clone-b
+
 echo 'Second file, first line.' > second.txt
 git add .
 echo
@@ -22,4 +22,6 @@ echo
 git push
 echo
 git log -p
+echo
+
 cd ..
