@@ -12,7 +12,7 @@ git commit -am 'Third commit: First file, third line.'
 echo
 git tag -a v1.2 -m 'Version 1.2'
 echo
-git push --tags
+git push --all
 echo
 git log --pretty=oneline
 echo
