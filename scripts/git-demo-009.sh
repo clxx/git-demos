@@ -29,16 +29,14 @@ git push --force-with-lease --tags
 echo
 git log --pretty=oneline
 echo
-
 git checkout v1.1
 echo
 
-git checkout master
-echo
+cd ../clone-b
 
-git gc --aggressive
+git fetch
 echo
-
+git reset --hard @{u}
 git checkout v1.1
 echo
 
