@@ -25,6 +25,8 @@ GIT_COMMITTER_EMAIL="$EMAIL"
 GIT_AUTHOR_EMAIL="$EMAIL"
 ' -- --all
 echo
+git fetch --all
+echo
 git push --force-with-lease --all
 echo
 git log --pretty=oneline
