@@ -21,6 +21,7 @@ git clone demo-repo.git clone-b
 echo
 
 cd clone-a
+
 configLocal
 echo 'First file, first line.' > first.txt
 git add .
@@ -28,13 +29,16 @@ echo
 git commit -m 'First commit: First file, first line.'
 echo
 git push
+
 cd ..
 
 echo
 
 cd clone-b
+
 configLocal
 git pull
+
 cd ..
 
 echo
