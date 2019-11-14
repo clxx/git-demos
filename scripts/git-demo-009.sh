@@ -34,10 +34,13 @@ echo
 
 cd ../clone-b
 
-git fetch
+git fetch --all
 echo
-git reset --hard @{u}
+git reset --hard
+echo
 git checkout v1.1
 echo
+git log --pretty=oneline
+echo
 
-cd..
+cd ..
