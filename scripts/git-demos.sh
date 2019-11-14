@@ -1,8 +1,9 @@
 #!/bin/bash
 
 function configLocal {
-    git config user.email "ethanwest@example.com"
-    git config user.name "Ethan West"
+    git config user.email 'ethanwest@example.com'
+    git config user.name 'Ethan West'
+
     git config push.default current
 }
 
@@ -47,7 +48,7 @@ echo '4: Feature branch (fast forward merge).'
 echo '5: Feature branch (squash merge).'
 echo '6: Feature branch (squash commits only).'
 echo '7: Interactive rebase (squash commits).'
-echo '8: Soft reset (use it as a last resort).'
+echo '8: Soft reset (some kind of last resort).'
 echo
 read -p 'Enter your demo number: ' number
 echo
