@@ -29,19 +29,15 @@ echo
 git commit -m 'First commit: First file, first line.'
 echo
 git push
-
-cd ..
-
 echo
 
-cd clone-b
+cd ../clone-b
 
 configLocal
 git pull
+echo
 
 cd ..
-
-echo
 
 echo 'Learn'
 echo
