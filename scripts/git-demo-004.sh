@@ -10,6 +10,7 @@ git commit -am 'Second commit: First file, second line.'
 echo
 git push
 echo
+
 git checkout master
 echo
 git merge feature/one
