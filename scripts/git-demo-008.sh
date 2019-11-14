@@ -25,6 +25,7 @@ git checkout feature/one
 echo
 git reset --soft master
 echo
+# Manual diff/review necessary...
 git commit -am 'Fifth commit: Squashed second and third commit.'
 echo
 git push
