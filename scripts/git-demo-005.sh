@@ -14,6 +14,7 @@ echo
 # "git push --set-upstream origin feature/one"
 git push
 echo
+
 git checkout master
 echo
 echo 'Second file, first line.' > second.txt
@@ -23,6 +24,7 @@ git commit -m 'Fourth commit: Second file, first line.'
 echo
 git push
 echo
+
 git merge --squash feature/one
 echo
 git commit -m 'Fifth commit: Squashed second and third commit.'
