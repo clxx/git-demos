@@ -24,7 +24,7 @@ git rebase -i master
 echo
 git push
 echo
-git log -c
+git log -p
 echo
 git checkout master
 echo
@@ -32,5 +32,5 @@ git merge feature/one
 echo
 git push
 echo
-git log -c
+git log -p
 cd ..
