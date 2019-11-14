@@ -52,7 +52,7 @@ echo '8: Soft reset (some kind of a last resort).'
 echo
 echo 'Explore'
 echo
-echo '9: Tags after root rebase.' # git rebase -i --root
+echo '9: Tags after history change.'
 echo
 read -p 'Enter your demo number: ' number
 echo
