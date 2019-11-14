@@ -31,6 +31,8 @@ https://stackoverflow.com/a/42143069
 
 https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges !!!
 
+Endless merge conflicts without squash when rebasing...
+
 Use old notes as well...
 
 Tortoise git: how would my pr look like?
