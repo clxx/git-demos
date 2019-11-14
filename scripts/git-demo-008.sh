@@ -37,5 +37,6 @@ echo
 git push
 echo
 git log -p
+echo
 
 cd ..
