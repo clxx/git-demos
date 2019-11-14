@@ -1,6 +1,7 @@
 #!/bin/bash
 
 cd clone-a
+
 echo 'First file, second line.' >> first.txt
 git commit -am 'Second commit: First file, second line.'
 echo
@@ -17,7 +18,7 @@ git log --pretty=oneline
 echo
 
 # Change history...
-# Note that we deliberately do not use '--tag-name-filter cat'!
+# Note: We deliberately do not use '--tag-name-filter cat' here!
 FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch --env-filter '
 EMAIL="new-address@example.com"
 GIT_COMMITTER_EMAIL="$EMAIL"
@@ -28,11 +29,17 @@ git push --force-with-lease --tags
 echo
 git log --pretty=oneline
 echo
+
 git checkout v1.1
 echo
+
 git checkout master
 echo
+
 git gc --aggressive
 echo
+
 git checkout v1.1
 echo
+
+cd..
